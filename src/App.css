@@ -1,38 +1,67 @@
-.App {
-  text-align: center;
+.navbar {
+    width: 80%;
+    margin: 2rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#connect_btn {
+    padding: 0.8rem 2rem;
+    font-size: 1.2rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.mainSection {
+    width: 80%;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.updateNumber,
+.getInfo {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
 }
 
-.App-link {
-  color: #61dafb;
+label {
+    font-size: 2rem;
+    color: rgb(26, 26, 26);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input {
+    font-size: 2rem;
+    border-radius: 0.4rem;
+    padding: 0.8rem;
+    margin: 1rem 0
+}
+
+.updateButton,
+.getInfoButton {
+    padding: 1rem 2rem;
+    font-size: 1.3rem;
+    border-radius: 0.4rem;
+    width: 50%;
+    margin: 1rem auto;
+    cursor: pointer;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    width: 80%;
+    margin: 1rem auto;
+    padding: 1rem;
+    border-radius: 0.4rem;
+}
+
+.details>h1 {
+    color: rgb(31, 31, 31);
+    margin: 0.4rem;
+    font-size: 1.8rem;
 }
